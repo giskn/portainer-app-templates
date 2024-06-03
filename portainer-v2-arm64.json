@@ -3248,7 +3248,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/HTPCmanager",
+					"bind": "/home/pi/docker-proj/HTPCmanager/config",
 					"container": "/config"
 				}
 			],
