@@ -399,7 +399,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/archivebox",
+					"bind": "/home/pi/docker-proj/archivebox/data",
 					"container": "/data"
 				}
 			]
@@ -438,11 +438,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/AriaNG",
+					"bind": "/home/pi/docker-proj/AriaNG/conf",
 					"container": "/aria2/conf"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Downloads/data",
 					"container": "/aria2/data"
 				}
 			],
@@ -572,7 +572,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Bazarr",
+					"bind": "/home/pi/docker-proj/Bazarr/data",
 					"container": "/config"
 				},
 				{
@@ -615,7 +615,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Beets",
+					"bind": "/home/pi/docker-proj/Beets/config",
 					"container": "/config"
 				},
 				{
@@ -743,11 +743,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Caddy/Data",
+					"bind": "/home/pi/docker-proj/Caddy/data",
 					"container": "/data"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Caddy/Config",
+					"bind": "/home/pi/docker-proj/Caddy/config",
 					"container": "/config"
 				},
 				{
@@ -792,11 +792,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Books",
+					"bind": "/home/pi/docker-proj/Books/books",
 					"container": "/books"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Calibre",
+					"bind": "/home/pi/docker-proj/Calibre/config",
 					"container": "/config"
 				}
 			],
@@ -832,11 +832,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Books",
+					"bind": "/home/pi/docker-proj/Books/books",
 					"container": "/books"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Calibre-web",
+					"bind": "/home/pi/docker-proj/Calibre-web/config",
 					"container": "/config"
 				}
 			],
@@ -871,7 +871,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Cardigann",
+					"bind": "/home/pi/docker-proj/Cardigann/config",
 					"container": "/config"
 				}
 			],
@@ -1155,7 +1155,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Codiad",
+					"bind": "/home/pi/docker-proj/Codiad/config",
 					"container": "/config"
 				}
 			],
@@ -1259,11 +1259,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Books",
+					"bind": "/home/pi/docker-proj/Books/books",
 					"container": "/books"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Cops",
+					"bind": "/home/pi/docker-proj/Cops/config",
 					"container": "/config"
 				}
 			],
@@ -1299,7 +1299,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Couchpotato",
+					"bind": "/home/pi/docker-proj/Couchpotato/config",
 					"container": "/config"
 				},
 				{
@@ -1342,7 +1342,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Daapd",
+					"bind": "/home/pi/docker-proj/Daapd/config",
 					"container": "/config"
 				},
 				{
@@ -1370,7 +1370,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Dashmachine",
+					"bind": "/home/pi/docker-proj/Dashmachine/user_data",
 					"container": "/dashmachine/dashmachine/user_data"
 				}
 			],
@@ -1460,7 +1460,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/DavinciServer/",
+					"bind": "/home/pi/docker-proj/DavinciServer/data",
 					"container": "/var/lib/postgresql/data"
 				}
 			],
@@ -1497,7 +1497,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Davos",
+					"bind": "/home/pi/docker-proj/Davos/config",
 					"container": "/config"
 				},
 				{
@@ -1570,7 +1570,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Deluge",
+					"bind": "/home/pi/docker-proj/Deluge/config",
 					"container": "/config"
 				},
 				{
@@ -1697,7 +1697,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Domoticz",
+					"bind": "/home/pi/docker-proj/Domoticz/config",
 					"container": "/config"
 				}
 			],
@@ -1740,7 +1740,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/doublecommander",
+					"bind": "/home/pi/docker-proj/doublecommander/config",
 					"container": "/config"
 				}
 			],
@@ -1902,7 +1902,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Duplicati",
+					"bind": "/home/pi/docker-proj/Duplicati/config",
 					"container": "/config"
 				},
 				{
@@ -1987,11 +1987,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Emby",
+					"bind": "/home/pi/docker-proj/Emby/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/TV",
+					"bind": "/home/pi/docker-proj/TVshows",
 					"container": "/data/tvshows"
 				},
 				{
@@ -2020,7 +2020,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/EmbyStat",
+					"bind": "/home/pi/docker-proj/EmbyStat/config",
 					"container": "/config"
 				}
 			]
@@ -2056,11 +2056,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/emulatorjs",
+					"bind": "/home/pi/docker-proj/emulatorjs/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads/Roms",
+					"bind": "/home/pi/docker-proj/Downloads/Roms/data",
 					"container": "/data"
 				}
 			],
@@ -2178,7 +2178,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/filezilla",
+					"bind": "/home/pi/docker-proj/filezilla/config",
 					"container": "/config"
 				}
 			],
@@ -2214,7 +2214,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/firefox",
+					"bind": "/home/pi/docker-proj/firefox/config",
 					"container": "/config"
 				}
 			],
@@ -2421,7 +2421,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/foundryvtt",
+					"bind": "/home/pi/docker-proj/foundryvtt/data",
 					"container": "/data"
 				}
 			],
@@ -2456,7 +2456,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/freshrss",
+					"bind": "/home/pi/docker-proj/freshrss/config",
 					"container": "/config"
 				}
 			],
@@ -2493,15 +2493,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Gazee",
+					"bind": "/home/pi/docker-proj/Gazee/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Comics",
+					"bind": "/home/pi/docker-proj/Gazee/Comics",
 					"container": "/comics"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Gazee",
+					"bind": "/home/pi/docker-proj/Gazee/mylar",
 					"container": "/mylar"
 				}
 			],
@@ -2624,7 +2624,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Gitea",
+					"bind": "/home/pi/docker-proj/Gitea/data",
 					"container": "/data"
 				},
 				{
@@ -2745,7 +2745,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/gotify",
+					"bind": "/home/pi/docker-proj/gotify/data",
 					"container": "/app/data"
 				}
 			]
@@ -2839,7 +2839,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Grocy",
+					"bind": "/home/pi/docker-proj/Grocy/config",
 					"container": "/config"
 				}
 			],
@@ -2864,7 +2864,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Guacamole",
+					"bind": "/home/pi/docker-proj/Guacamole/config",
 					"container": "/config"
 				}
 			]
@@ -2898,7 +2898,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Headphones",
+					"bind": "/home/pi/docker-proj/Headphones/config",
 					"container": "/config"
 				},
 				{
@@ -2944,7 +2944,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Heimdall",
+					"bind": "/home/pi/docker-proj/Heimdall/config",
 					"container": "/config"
 				}
 			],
@@ -3171,7 +3171,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Homepage/config/",
+					"bind": "/home/pi/docker-proj/Homepage/config",
 					"container": "/app/config"
 				},
 				{
@@ -3580,7 +3580,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/iobrokerdata",
+					"bind": "/home/pi/docker-proj/iobroker/data",
 					"container": "/opt/iobroker"
 				}
 			],
@@ -3616,7 +3616,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Jackett",
+					"bind": "/home/pi/docker-proj/Jackett/config",
 					"container": "/config"
 				},
 				{
@@ -3661,7 +3661,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/JDownloader",
+					"bind": "/home/pi/docker-proj/JDownloader/cfg",
 					"container": "/opt/JDownloader/app/cfg"
 				},
 				{
@@ -3708,15 +3708,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Jellyfin",
+					"bind": "/home/pi/docker-proj/Jellyfin/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/TV",
+					"bind": "/home/pi/docker-proj/Jellyfin/TVshows",
 					"container": "/data/tvshows"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Movies",
+					"bind": "/home/pi/docker-proj/Jellyfin/Movies",
 					"container": "/data/movies"
 				}
 			],
@@ -3744,11 +3744,11 @@
 			],
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Jelllyfin",
+					"bind": "/home/pi/docker-proj/Jelllyfin/jf",
 					"container": "/jf"
 				},
 				{
-					"bind": "/home/pi/docker-proj/jfago",
+					"bind": "/home/pi/docker-proj/jfago/data",
 					"container": "/data"
 				},
 				{
@@ -3799,7 +3799,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Jellyseerr",
+					"bind": "/home/pi/docker-proj/Jellyseerr/config",
 					"container": "/app/config"
 				}
 			],
@@ -4035,7 +4035,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Kodi",
+					"bind": "/home/pi/docker-proj/Kodi/config",
 					"container": "/config/.kodi"
 				}
 			],
@@ -4180,7 +4180,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/LetsEncrypt",
+					"bind": "/home/pi/docker-proj/LetsEncrypt/config",
 					"container": "/config"
 				}
 			],
@@ -4204,7 +4204,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/libreddit",
+					"bind": "/home/pi/docker-proj/libreddit/config",
 					"container": "/config"
 				}
 			],
@@ -4240,7 +4240,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/LibreSpeed",
+					"bind": "/home/pi/docker-proj/LibreSpeed/config",
 					"container": "/config"
 				}
 			],
@@ -4276,7 +4276,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Lidarr/conf",
+					"bind": "/home/pi/docker-proj/Lidarr/config",
 					"container": "/config"
 				},
 				{
@@ -4485,11 +4485,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Lychee/conf",
+					"bind": "/home/pi/docker-proj/Lychee/confing",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Pictures",
+					"bind": "/home/pi/docker-proj/Lychee/Pictures",
 					"container": "/pictures"
 				}
 			],
@@ -4637,7 +4637,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Mariadb",
+					"bind": "/home/pi/docker-proj/Mariadb/config",
 					"container": "/config"
 				}
 			],
@@ -4719,7 +4719,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/mealie",
+					"bind": "/home/pi/docker-proj/mealie/data",
 					"container": "/app/data"
 				}
 			]
@@ -4754,15 +4754,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Medusa",
+					"bind": "/home/pi/docker-proj/Medusa/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/TV",
+					"bind": "/home/pi/docker-proj/Medusa/tv",
 					"container": "/tv"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Medusa/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -4821,7 +4821,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/MeTube/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -4853,7 +4853,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Minecraft-data",
+					"bind": "/home/pi/docker-proj/Minecraft/data",
 					"container": "/data"
 				}
 			],
@@ -4941,7 +4941,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/MinIO",
+					"bind": "/home/pi/docker-proj/MinIO/data",
 					"container": "/data"
 				}
 			],
@@ -5069,11 +5069,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Mstream",
+					"bind": "/home/pi/docker-proj/Mstream/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Mstream/Downloads/music",
 					"container": "/music"
 				}
 			],
@@ -5120,7 +5120,7 @@
 					"container": "/etc/localtime"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Config/Murmur/conf",
+					"bind": "/home/pi/docker-proj/Config/Murmur/config",
 					"container": "/opt/murmur/config"
 				},
 				{
@@ -5170,7 +5170,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/MusicBrainz/conf",
+					"bind": "/home/pi/docker-proj/MusicBrainz/config",
 					"container": "/config"
 				},
 				{
@@ -5212,7 +5212,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Muximux",
+					"bind": "/home/pi/docker-proj/Muximux/config",
 					"container": "/config"
 				}
 			],
@@ -5248,15 +5248,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Mylar",
+					"bind": "/home/pi/docker-proj/Mylar/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Mylar/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Comics",
+					"bind": "/home/pi/docker-proj//Mylar/Comics",
 					"container": "/comics"
 				}
 			],
@@ -5380,11 +5380,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/netdata/netdataconfig",
+					"bind": "/home/pi/docker-proj/netdata/config",
 					"container": "/etc/netdata"
 				},
 				{
-					"bind": "/home/pi/docker-proj/netdata/netdatalib",
+					"bind": "/home/pi/docker-proj/netdata/lib",
 					"container": "/var/lib/netdata"
 				},
 				{
@@ -5493,7 +5493,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/ncdata",
+					"bind": "/home/pi/docker-proj/nextcloud/data",
 					"container": "/data"
 				}
 			]
@@ -5529,7 +5529,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Nginx",
+					"bind": "/home/pi/docker-proj/Nginx/config",
 					"container": "/config"
 				}
 			],
@@ -6017,11 +6017,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Nzbget",
+					"bind": "/home/pi/docker-proj/Nzbget/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Nzbget/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -6686,7 +6686,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Pictures",
+					"bind": "/home/pi/docker-proj/Photoshow/Pictures",
 					"container": "/Pictures"
 				},
 				{
@@ -6723,11 +6723,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/PiHole",
+					"bind": "/home/pi/docker-proj/Pi-Hole/PiHole",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/home/pi/docker-proj/PiHole/DNS",
+					"bind": "/home/pi/docker-proj/Pi-Hole/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -6755,7 +6755,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/PiHole_DoH-DoT",
+					"bind": "/home/pi/docker-proj/PiHole_DoH-DoT/pihole",
 					"container": "/etc/pihole"
 				},
 				{
@@ -6826,7 +6826,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/PiHole-Unbound",
+					"bind": "/home/pi/docker-proj/PiHole-Unbound/pihole",
 					"container": "/etc/pihole"
 				},
 				{
@@ -6888,7 +6888,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/PiWigo",
+					"bind": "/home/pi/docker-proj/PiWigo/config",
 					"container": "/config"
 				}
 			],
@@ -6963,15 +6963,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Plex",
+					"bind": "/home/pi/docker-proj/Plex/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/TV",
+					"bind": "/home/pi/docker-proj/Plex/TV",
 					"container": "/tv"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Movies",
+					"bind": "/home/pi/docker-proj/Plex/Movies",
 					"container": "/movies"
 				}
 			],
@@ -7017,7 +7017,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/PostgreSQL",
+					"bind": "/home/pi/docker-proj/PostgreSQL/data",
 					"container": "/var/lib/postgresql/data"
 				}
 			],
@@ -7096,11 +7096,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/PrivateBin",
+					"bind": "/home/pi/docker-proj/PrivateBin/data",
 					"container": "/srv/data"
 				},
 				{
-					"bind": "/home/pi/docker-proj/PrivateBin",
+					"bind": "/home/pi/docker-proj/PrivateBin/config",
 					"container": "/srv/cfg"
 				}
 			],
@@ -7142,7 +7142,7 @@
 					"container": "/data"
 				},
 				{
-					"bind": "/home/pi/docker-proj/ProjectSend/conf",
+					"bind": "/home/pi/docker-proj/ProjectSend/config",
 					"container": "/config"
 				}
 			],
@@ -7209,7 +7209,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/prowlarr/conf",
+					"bind": "/home/pi/docker-proj/prowlarr/config",
 					"container": "/config"
 				}
 			],
@@ -7255,7 +7255,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/pwndrop/conf",
+					"bind": "/home/pi/docker-proj/pwndrop/config",
 					"container": "/config"
 				}
 			],
@@ -7291,7 +7291,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Pydio/conf",
+					"bind": "/home/pi/docker-proj/Pydio/config",
 					"container": "/config"
 				},
 				{
@@ -7332,7 +7332,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/qBittorrent/conf",
+					"bind": "/home/pi/docker-proj/qBittorrent/config",
 					"container": "/config"
 				},
 				{
@@ -7388,11 +7388,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/qFlood/conf",
+					"bind": "/home/pi/docker-proj/qFlood/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/qFlood/Downloads",
 					"container": "/app/qBittorrent/downloads"
 				}
 			]
@@ -7456,7 +7456,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Quassel-core/conf",
+					"bind": "/home/pi/docker-proj/Quassel-core/config",
 					"container": "/config"
 				}
 			],
@@ -7492,15 +7492,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Radarr/conf",
+					"bind": "/home/pi/docker-proj/Radarr/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Radarr/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Movies",
+					"bind": "/home/pi/docker-proj/Radarr/Movies",
 					"container": "/movies"
 				}
 			],
@@ -7568,7 +7568,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/RDesktop/conf",
+					"bind": "/home/pi/docker-proj/RDesktop/config",
 					"container": "/config"
 				}
 			],
@@ -7694,7 +7694,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/readarr/conf",
+					"bind": "/home/pi/docker-proj/readarr/config",
 					"container": "/config"
 				},
 				{
@@ -7805,14 +7805,14 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Resilio-Sync/conf",
+					"bind": "/home/pi/docker-proj/Resilio-Sync/config",
 					"container": "/config"
 				},
 				{
 					"container": "/sync"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Resilio-Sync/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -7948,7 +7948,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/ruTorrent/Downloads",
 					"container": "/downloads"
 				},
 				{
@@ -7991,11 +7991,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Sabnzbd/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads/incomplete",
+					"bind": "/home/pi/docker-proj/Sabnzbd/Downloads/incomplete",
 					"container": "/incomplete-downloads"
 				}
 			],
@@ -8059,7 +8059,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Downloads/share",
+					"bind": "/home/pi/docker-proj/Samba/Downloads/share",
 					"container": "/share"
 				}
 			],
@@ -8084,7 +8084,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/scrutiny/conf",
+					"bind": "/home/pi/docker-proj/scrutiny/config",
 					"container": "/opt/scrutiny/config"
 				},
 				{
@@ -8187,15 +8187,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/SickChill/conf",
+					"bind": "/home/pi/docker-proj/SickChill/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/SickChill/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/home/pi/docker-proj/TV",
+					"bind": "/home/pi/docker-proj/SickChill/TV",
 					"container": "/tv"
 				}
 			],
@@ -8231,15 +8231,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/SickGear/conf",
+					"bind": "/home/pi/docker-proj/SickGear/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/TV",
+					"bind": "/home/pi/docker-proj/SickGear/TV",
 					"container": "/tv"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/SickGear/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -8298,7 +8298,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Smokeping/conf",
+					"bind": "/home/pi/docker-proj/Smokeping/confing",
 					"container": "/config"
 				},
 				{
@@ -8362,7 +8362,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Sonarr/conf",
+					"bind": "/home/pi/docker-proj/Sonarr/config",
 					"container": "/config"
 				},
 				{
@@ -8370,11 +8370,11 @@
 					"container": "/dev/rtc"
 				},
 				{
-					"bind": "/home/pi/docker-proj/TV",
+					"bind": "/home/pi/docker-proj/Sonarr/TV",
 					"container": "/tv"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Sonarr/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -8406,7 +8406,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/speedtest-tracker/conf",
+					"bind": "/home/pi/docker-proj/speedtest-tracker/config",
 					"container": "/config"
 				}
 			],
@@ -8501,7 +8501,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Syncthing/conf",
+					"bind": "/home/pi/docker-proj/Syncthing/config",
 					"container": "/config"
 				},
 				{
@@ -8613,7 +8613,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Logs",
+					"bind": "/home/pi/docker-proj/Tautulli/Logs",
 					"container": "/logs"
 				},
 				{
@@ -8652,7 +8652,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Teeworlds/conf",
+					"bind": "/home/pi/docker-proj/Teeworlds/config",
 					"container": "/config"
 				},
 				{
@@ -8686,11 +8686,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/mc/output",
+					"bind": "/home/pi/docker-proj/Thanos/mc/output",
 					"container": "/output"
 				},
 				{
-					"bind": "/home/pi/docker-proj/mc/input",
+					"bind": "/home/pi/docker-proj/Thanos/mc/input",
 					"container": "/watch"
 				}
 			],
@@ -8725,7 +8725,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/TheLounge/conf",
+					"bind": "/home/pi/docker-proj/TheLounge/config",
 					"container": "/config"
 				}
 			],
@@ -8824,11 +8824,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Transmission/conf",
+					"bind": "/home/pi/docker-proj/Transmission/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads",
+					"bind": "/home/pi/docker-proj/Transmission/Downloads",
 					"container": "/downloads"
 				},
 				{
@@ -8906,7 +8906,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads/data",
+					"bind": "/home/pi/docker-proj/transmission-openvp/Downloads/data",
 					"container": "/data"
 				},
 				{
@@ -8980,11 +8980,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/transmission-openvpn/conf",
+					"bind": "/home/pi/docker-proj/transmission-openvpn/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Downloads/data",
+					"bind": "/home/pi/docker-proj/transmission-openvp/Downloads/data",
 					"container": "/data"
 				},
 				{
@@ -9024,7 +9024,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/TVHeadend/conf",
+					"bind": "/home/pi/docker-proj/TVHeadend/config",
 					"container": "/config"
 				},
 				{
@@ -9117,7 +9117,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Unifi/conf",
+					"bind": "/home/pi/docker-proj/Unifi/config",
 					"container": "/config"
 				}
 			],
@@ -9174,7 +9174,7 @@
 					"container": "/recordings"
 				},
 				{
-					"bind": "/home/pi/docker-proj/UniFiVideo/conf",
+					"bind": "/home/pi/docker-proj/UniFiVideo/config",
 					"container": "/config"
 				}
 			],
@@ -9209,7 +9209,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/unmanic/conf",
+					"bind": "/home/pi/docker-proj/unmanic/config",
 					"container": "/config"
 				},
 				{
@@ -9298,11 +9298,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/urbackup",
+					"bind": "/home/pi/docker-proj/UrBackup",
 					"container": "/var/urbackup"
 				},
 				{
-					"bind": "/home/pi/docker-proj/backups",
+					"bind": "/home/pi/docker-proj/UrBackup/backups",
 					"container": "/backup"
 				}
 			],
@@ -9457,7 +9457,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/WebGrabPlus/conf",
+					"bind": "/home/pi/docker-proj/WebGrabPlus/config",
 					"container": "/config"
 				},
 				{
@@ -9508,7 +9508,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Whisparr/conf",
+					"bind": "/home/pi/docker-proj/Whisparr/config",
 					"container": "/config"
 				},
 				{
@@ -9516,7 +9516,7 @@
 					"container": "/dev/rtc"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Adult",
+					"bind": "/home/pi/docker-proj/Whisparr/Adult",
 					"container": "/Adult"
 				}
 			],
@@ -9540,7 +9540,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Whoogle/conf",
+					"bind": "/home/pi/docker-proj/Whoogle/config",
 					"container": "/config"
 				}
 			],
@@ -9564,7 +9564,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Wikijs/conf",
+					"bind": "/home/pi/docker-proj/Wikijs/config",
 					"container": "/config"
 				},
 				{
@@ -9864,19 +9864,19 @@
 					"container": "/app/appdata"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Youtube/Video",
+					"bind": "/home/pi/docker-proj/YTDLM/Video",
 					"container": "/app/video"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Youtube/Subscriptions",
+					"bind": "/home/pi/docker-proj/YTDLM/Subscriptions",
 					"container": "/app/subscriptions"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Youtube/Users",
+					"bind": "/home/pi/docker-proj/YTDLM/Users",
 					"container": "/app/users"
 				},
 				{
-					"bind": "/home/pi/docker-proj/Youtube/Audio",
+					"bind": "/home/pi/docker-proj/YTDLM/Audio",
 					"container": "/app/audio"
 				}
 			],
@@ -9911,7 +9911,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/ZNC/conf",
+					"bind": "/home/pi/docker-proj/ZNC/config",
 					"container": "/config"
 				}
 			],
