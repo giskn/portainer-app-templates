@@ -9028,6 +9028,7 @@
 					"container": "/config"
 				},
 				{
+					"bind": "/home/pi/docker-proj/TVHeadend/recordings"
 					"container": "/recordings"
 				}
 			],
