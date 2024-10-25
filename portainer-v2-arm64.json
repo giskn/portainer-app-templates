@@ -7527,7 +7527,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/raspberrypi-monitoring.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/giskn/portainer-app-templates"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Raspberry Pi Docker Monitor",
