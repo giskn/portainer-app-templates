@@ -65,8 +65,8 @@
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/New_York",
-					"description": "Specify a timezone to use for example America/New_York"
+					"default": "Atlantic/Canary",
+					"description": "Specify a timezone to use for example Atlantic/Canary"
 				},
 				{
 					"name": "CONFIGFILE",
@@ -114,7 +114,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Atlantic/Canary",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -183,7 +183,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Atlantic/Canary",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -486,7 +486,7 @@
 			"description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
 			"env": [
 				{
-					"default": "America/New_York",
+					"default": "Atlantic/Canary",
 					"label": "TZ",
 					"name": "TZ"
 				}
