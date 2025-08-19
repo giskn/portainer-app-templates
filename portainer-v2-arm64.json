@@ -1790,7 +1790,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Atlantic/Canary",
 					"label": "TZ",
 					"name": "TZ"
 				},

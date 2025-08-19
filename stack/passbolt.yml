@@ -15,7 +15,7 @@ services:
       - passbolt_default
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/passbolt/db:/config
+      - /home/pi/docker-proj/passbolt/db:/config
 
   passbolt:
     container_name: passbolt
@@ -52,8 +52,8 @@ services:
       - ${PASSBOLT_PORT}:443
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/passbolt/certs/cert.pem:/etc/ssl/certs/certificate.crt:ro
-      - /portainer/Files/AppData/Config/passbolt/certs/key.pem:/etc/ssl/certs/certificate.key:ro
+      - /home/pi/docker-proj/passbolt/certs/cert.pem:/etc/ssl/certs/certificate.crt:ro
+      - /home/pi/docker-proj/passbolt/certs/key.pem:/etc/ssl/certs/certificate.key:ro
       - gpg:/etc/passbolt/gpg
       - jwt:/etc/passbolt/jwt
 
