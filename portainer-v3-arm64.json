@@ -2361,7 +2361,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/firefox",
+					"bind": "/home/pi/docker-proj/Firefox",
 					"container": "/config"
 				}
 			],
