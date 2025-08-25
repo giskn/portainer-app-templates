@@ -5874,7 +5874,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Nginx",
+					"bind": "/home/pi/docker-proj/Nginx/config",
 					"container": "/config"
 				}
 			],
