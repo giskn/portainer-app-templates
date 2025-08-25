@@ -1189,7 +1189,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/home/pi/docker-proj/Code-Server",
+					"bind": "/home/pi/docker-proj/Code-Server/config",
 					"container": "/config"
 				}
 			],
