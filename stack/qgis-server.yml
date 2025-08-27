@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  qgis-server:
+    image: qgis/qgis-server:3.38.1-noble
+    container_name: QGis-Server
+    ports:
+    - '8010:80'
+    volumes:
+    - /home/pi/docker-proj/QgisSvr/qgis_projects:/tmp
+    - /home/pi/docker-proj/QgisSvr/qgis_server.conf:/etc/qgis-server/qgis-server.conf
+    environment:
+    - PUID=1000
+    - PGID=1000
+    - TZ=Atlantic/Canary
+    - LANG=en_EN.UTF-8
+    - QGIS_SERVER_LOG_LEVEL=0 # INFO (log all requests
+    - QGIS_SERVER_LOG_FILE=/dev/stdout
+    - DEBUG=1
+    restart: unless-stopped
+    networks:
+    - qgis-network
+
+networks:
+  qgis-network:
+    driver: bridge
